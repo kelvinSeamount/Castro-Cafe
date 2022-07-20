@@ -9,6 +9,7 @@ body {
   font-family: "montserrat", serif;
 }
 
+/*--Styling Div-Conitainer--*/
 .coffee-main {
   background-image: url(/img/ardalan-hamedani-QAskBOimPwM-unsplash.jpg);
   background-repeat: no-repeat;
@@ -19,6 +20,7 @@ body {
   padding: auto;
 }
 
+/*--Styling Navbar--*/
 .navbar {
   padding: 25px 0;
   display: flex;
@@ -54,6 +56,7 @@ body {
   color: aquamarine;
 }
 
+/*--Styling Section& Footer--*/
 .main {
   position: absolute;
   top: 240px;
