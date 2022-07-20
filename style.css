@@ -1,0 +1,93 @@
+/*---Universal Styling---*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "montserrat", serif;
+}
+
+.coffee-main {
+  background-image: url(/img/ardalan-hamedani-QAskBOimPwM-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  padding: auto;
+}
+
+.navbar {
+  padding: 25px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /*background-color: blue;*/
+  opacity: 0.5;
+}
+
+.nav-menu {
+  padding-right: 80px;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+}
+
+.logo {
+  color: rgba(185, 120, 34, 0.671);
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 35px;
+}
+
+.nav-menu a {
+  color: rgb(255, 158, 30);
+  text-decoration: none;
+  transition: all 0.7s ease-in-out;
+}
+
+.nav-menu a:hover {
+  color: aquamarine;
+}
+
+.main {
+  position: absolute;
+  top: 240px;
+  left: 30px;
+  max-width: 50%;
+}
+
+.magic {
+  font-size: 2rem;
+  color: rgb(15, 124, 15);
+  margin-bottom: 20px;
+}
+
+.code {
+  font-style: oblique;
+  color: rgba(11, 160, 73, 0.993);
+}
+
+.p-text {
+  font-size: 1.5rem;
+  color: whitesmoke;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+
+.order {
+  padding: 10px 15px;
+  background-color: rgb(250, 208, 208);
+  max-width: 10px 0;
+}
+
+.copy {
+  position: absolute;
+  bottom: 10px;
+  right: 500px;
+  color: rgb(129, 76, 6);
+}
