@@ -19,6 +19,7 @@ body {
   width: 100vw;
   height: 100vh;
   padding: auto;
+  position: relative;
 }
 
 /*--Styling Navbar--*/
@@ -92,7 +93,7 @@ body {
 
 .copy {
   position: absolute;
-  bottom: 10px;
+  top: 95%;
   right: 500px;
   color: rgb(129, 76, 6);
   text-align: center;
