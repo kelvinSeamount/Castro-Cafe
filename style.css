@@ -82,6 +82,7 @@ body {
   color: whitesmoke;
   line-height: 30px;
   margin-bottom: 20px;
+  font-weight: 400;
 }
 
 .order {
@@ -89,6 +90,7 @@ body {
   background-color: rgb(10, 204, 10);
   color: whitesmoke;
   max-width: 10px 0;
+  border-radius: 15px;
 }
 
 .footer {
