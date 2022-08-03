@@ -224,7 +224,7 @@ body {
   color: whitesmoke;
 
   display: flex;
-  /*align-items: center;*/
+  align-items: center;
   gap: 86px;
   padding-left: 80px;
   position: relative;
