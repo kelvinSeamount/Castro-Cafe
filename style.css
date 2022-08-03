@@ -118,16 +118,17 @@ body {
 
 .about-us {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   align-content: center;
+  width: 100%;
 }
 
 .about-us p {
   color: whitesmoke;
   margin: 40px 0;
   line-height: 1.5;
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 500;
 }
 
@@ -150,6 +151,7 @@ body {
   grid-template-columns: auto 1fr auto;
   column-gap: 24px;
   row-gap: 32px;
+  width: 100%;
 }
 
 .number,
@@ -163,6 +165,7 @@ body {
   height: 24px;
   width: 24px;
   stroke: #d3670f;
+  font-weight: 500;
 }
 
 .hidden {
@@ -208,4 +211,76 @@ body {
   color: #d3670f;
   font-size: 1rem;
   font-weight: 700;
+}
+
+/* Styling the carousel*/
+
+.carousel {
+  margin: 50px 0;
+  background-color: #5e2c04;
+  padding: 32px;
+  width: 100%;
+  border-radius: 8px;
+  color: whitesmoke;
+
+  display: flex;
+  /*align-items: center;*/
+  gap: 86px;
+  padding-left: 80px;
+  position: relative;
+}
+
+.img {
+  border-radius: 8px;
+  transform: scale(1.4);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.23);
+}
+
+.testimonal-text {
+  line-height: 1;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 2px;
+  margin-bottom: 32px;
+}
+
+.author {
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+.role {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.btns {
+  border: none;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  position: absolute;
+
+  /* This is to center the chevron*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn--left {
+  left: 0;
+  top: 45%;
+  transform: translate(-45%, -45%);
+}
+
+.btn--right {
+  right: 0;
+  top: 45%;
+  transform: translate(45%, -45%);
+}
+
+.btn-icons {
+  height: 24px;
+  width: 24px;
 }
